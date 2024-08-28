@@ -1,0 +1,116 @@
+.main-banner{
+  position:relative;
+}
+
+.banner{
+  margin-top:125px;
+  margin-left:62px;
+  border-radius: 15px;
+}
+.bottom-right-overlay{
+  position:absolute;
+  right:70px;
+  bottom:10px;
+  font-size:10px;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding:4px 8px 4px 8px;
+  border-radius: 3px;
+}
+
+.second-section{
+  width:89.3%; 
+  height:265px;
+  box-shadow:0px 0px 3px rgba(0, 0, 0, 0.25);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left:62px;
+  margin-right:62px;
+  border-radius: 12px;
+  margin-top:22px;
+  padding:13px 12px;
+}
+.main-first-subsection{
+  display:flex;
+  flex-direction: row;
+  height:97%;
+  width:99%;
+}
+
+.kategori-pilihan-section{
+  display:flex;
+  flex-direction: column;
+  border:1px solid blue;
+  height:76.5%;
+  position:relative;
+  flex:1;
+  margin-left:0px;
+}
+.kategori-pilihan-section .kategori-pilihan{
+  font-size:19.9px;
+  font-weight: bolder;
+  margin-top:-2px;
+  margin-left:-2px;
+}
+
+.kategori-pilihan-items{
+  display:flex;
+  gap:22px;
+  position:absolute;
+  bottom:19px;
+}
+.kategori-pilihan-items img{
+  width:127px;
+  border-radius: 5px;
+  box-shadow:0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+
+.top-up-section{
+  display:flex;
+  flex-direction: column;
+  border:1px solid green;
+  height:76.5%;
+  position:relative;
+  flex:1;
+  margin-left:0px;
+}
+
+.top-up-section .top-up-text{
+  font-size:19.9px;
+  font-weight:800;
+  margin-top:4px;
+  margin-left:5px;
+  font-stretch: 100%;
+  color:rgb(33, 33, 33);
+  margin-bottom:16px;
+}
+
+.top-up-section .top-up-text .top-up-text-2{
+  font-size:13.5px;
+  color:rgb(19, 179, 85);
+  margin-left:2px;
+}
+
+.top-up-buy-section{
+  display:flex;
+  flex-direction:column ;
+  box-shadow:0px 0px 2px rgba(0, 0, 0, 0.7);
+  height:131px;
+  margin-left:8px;
+}
+.top-up-buy-section .top-up-category-section{
+  display:flex;
+  flex-direction: row;
+
+}
+
+.greened-category{
+  }
+.top-up-input-section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-up-input-right-section

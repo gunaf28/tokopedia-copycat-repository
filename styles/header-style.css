@@ -1,0 +1,231 @@
+.main-header{
+  display:flex;
+  z-index: 100;
+  background-color: white;
+  margin-top:0px;
+  position:fixed;
+  flex-direction: column;
+  height:110px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second-header-0{
+  display:flex;
+  justify-content: start;
+  width:100%;
+  margin-left:-10px;
+  position:absolute;
+  height:32px;
+  margin-top:-8px;
+  color:rgba(0, 0, 0, 0.7);
+  background-color: rgb(240, 243, 247);
+}
+.phone-icon{
+  position:relative;
+  left:27px;
+  bottom:-4px;
+  width:27px;
+  height:28px;
+}
+.left-header-0{
+  font-size:0.74em;
+  font-weight:500;
+  position: relative;
+  top:9px;
+  left:30px;
+}
+.right-header-0{
+  display:flex;
+  position:absolute;
+  right:82px;
+  top:9px;
+  gap:33px;
+  font-size:0.765em;
+}
+.right-header-0 .promo{
+  margin-left:1px;
+}
+
+.second-header-1{
+  display:flex;
+  width:100%;
+  height:80px;
+}
+.left-header{
+  display:flex;
+  position:relative;
+  align-items: center;
+  height:100px;
+  width:290px;
+}
+.tokopedia-logo{
+  margin-right:30px;
+  position: absolute;
+  width:150px;
+  top:40px;
+  left:29px;
+}
+
+.kategori-button{
+  position:absolute;
+  right:14px;
+  font-size:14px;
+  bottom:37px;
+  font-weight:400;
+}
+
+.middle-header{
+  height:100px;
+  display:flex;
+  align-items: center;
+  position:relative;
+}
+.search-input{
+  width:568px;
+  padding:8px 0px 12px 42px;
+  border-radius: 7px;
+  margin-top:10px;
+  margin-left:10px;
+  font-size:15px;
+  font-weight:500;
+  border-width:1px;
+  border-color:lightgray;
+  border-style:solid;
+}
+.search-input:focus{
+  border-color:greenyellow;
+  border-width: 1px;
+  border-style:solid;
+}
+.search-icon{
+  position:absolute;
+  width:26px;
+  top:40px;
+  left:18px;
+}
+
+.second-middle-header{
+  display:flex;
+  position:static;
+  height:100px;
+  align-items: center;
+  width: 190px;
+  justify-content: start;
+  margin-left:35px;
+}
+.cart-icon{
+  width:36px;
+  height:36px;
+  object-fit: cover;
+  margin-top:9px;
+  margin-left:1px;
+  position:relative;
+}
+.cart-icon .notification-bubble{
+  top:-3px;
+  right:-12px;
+}
+.notification-icon-container{
+  position:relative;
+}
+.notification-icon{
+  width:60px;
+  height:60px;
+  margin-top:14px;
+}
+.notification-bubble{
+  position: absolute;
+  top:24px;
+  right:8px;
+  background-color: rgb(224, 41, 84);
+  color:white;
+  border-width:2px;
+  border-color:white;
+  border-style:solid;
+  padding:1px 4px 1px 4px;
+  font-weight: bold;
+  font-size:11px;
+  border-radius: 10px;
+}
+.message-inbox-icon{
+  width:30px;
+  margin-top:15.7px;
+  margin-left:-8px;
+}
+
+.right-header{
+  display:flex;
+  width:300px;
+  justify-content: start;
+  align-items: center;
+  height:100px;
+  margin-left:0px;
+  font-weight:450;
+}
+.profile-container-1{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  position:relative;
+  margin-left:-12px;
+  margin-bottom:-7px;
+}
+
+.shop-pp{
+  width:32px;
+  border-radius: 16px;
+  margin-bottom:0px;
+  margin-right:10px;
+}
+.powermerchant{
+  position:absolute;
+  width:13.5px;
+  right:78px;
+  bottom:2px;
+}
+.shop-name{
+  font-size:14px;
+}
+.profile-container-2{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left:16px;
+}
+.buy-pp{
+  width:32px;
+  height:32px;
+  border-radius: 16px;
+  margin-bottom:-8px;
+}
+.buy-name{
+  font-size:14px;
+  margin-bottom:-7px;
+  margin-left:9px;
+}
+
+
+.second-header-2{
+  width:100%;
+  height:20px;
+  display:flex;
+  position:absolute;
+  bottom:-10px;
+}
+.recommendation-texts{
+  position:absolute;
+  margin-left:-120px;
+  display:flex;
+  width:100%;
+  height:20px;
+  gap:15px;
+  justify-content: center;
+  bottom:12px; 
+  font-size:12px;
+  margin-top:0px;
+  left:0px;
+  color:rgb(112, 111, 111);
+}
